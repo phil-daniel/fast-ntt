@@ -43,5 +43,16 @@ namespace fastntt::arithmetic {
      */
     uint32_t pow_mod(uint32_t a, uint32_t exponent, uint32_t mod);
 
-    // TODO: inverse mod
+    /**
+     * Computes the modular multiplicative inverse of an integer.
+     * Finds x such that a * x ≡ 1 % mod
+     * Note: The inverse exists only when gcd(a, mod) == 1.
+     *
+     * @param a Integer to find the inverse of.
+     * @param mod Modulus.
+     * @return The modular inverse of a modulo mod.
+     *
+     * @throws std::invalid_argument if the modular inverse does not exist.
+    */
+    uint32_t inverse_mod(uint32_t a, uint32_t mod);
 }
