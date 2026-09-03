@@ -1,5 +1,6 @@
-#include "fastntt/fastntt.h"
 #include <iostream>
+
+#include "fastntt/fastntt.h"
 
 int main() {
     std::cout << "running placeholder" << std::endl;

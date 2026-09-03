@@ -1,4 +1,4 @@
-#include <stdint.h>
+#include <cstdint>
 
 #include <fastntt/number_theory/gcd.h>
 

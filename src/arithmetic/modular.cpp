@@ -1,5 +1,5 @@
 #include <stdexcept>
-#include <stdint.h>
+#include <cstdint>
 
 #include <fastntt/arithmetic/modular.h>
 #include <fastntt/arithmetic/power.h>
